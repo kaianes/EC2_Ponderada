@@ -2,32 +2,6 @@
 
 ### Módulo 05 - semana 03.
 
-
-Crie uma instância de máquina EC2 na AWS e acesse esta máquina com SSH (sugestão de uso da ferramenta PUTTY). Registre seu trabalho em um relatório técnico em arquivo Markdown no GitHub com captura de tela do console com a máquina criada na conta de seu usuário, captura de tela do acesso SSH bem-sucedido e IP da máquina EC2 criada. Crie a documentação usando commits diferentes no GitHub, de preferência usando a interface de linha de comando. Seu relatório técnico deve conter as seções de Introdução, Objetivo, Materiais, Método, Resultados e Conclusão. Envie o link do repositório GitHub criado na sua conta Inteli no GitHub. Este repositório deve ter pelo menos 3 commits diferentes.
-
-
-Método:
-
-	1.	Acessar o Console de Gerenciamento da AWS.
-	2.	Navegar até o serviço EC2.
-	3.	Iniciar o processo de lançamento de uma nova instância.
-	4.	Escolher uma imagem de máquina virtual (AMI), tipo de instância, configurações de rede e outras opções conforme necessidade.
-	5.	Criar e configurar uma chave SSH para autenticação.
-	6.	Lançar a instância EC2.
-	7.	Configurar as regras de segurança do grupo de segurança para permitir o acesso SSH.
-	8.	Baixar e instalar o PuTTY no computador local, se ainda não estiver instalado.
-	9.	Converter a chave SSH para o formato compatível com o PuTTY (formato PPK).
-	10.	Abrir o PuTTY e configurar a conexão SSH com o endereço IP público da instância EC2 e a chave privada correspondente.
-	11.	Conectar-se à instância EC2 usando o PuTTY.
-	12.	Verificar a conexão e a acessibilidade da instância.
-
-Resultados:
-Após seguir o método descrito acima, foi possível criar com sucesso uma instância EC2 na AWS e acessá-la remotamente utilizando o PuTTY e SSH. A conexão foi estabelecida com êxito, permitindo a interação com a máquina virtual de forma remota.
-
-Conclusão:
-A criação de uma instância EC2 na AWS e o acesso a ela por meio do PuTTY e SSH são processos fundamentais para aproveitar os benefícios da computação em nuvem de forma eficiente e segura. Essa abordagem oferece flexibilidade, escalabilidade e facilidade de gerenciamento de recursos computacionais, contribuindo para a otimização de operações e desenvolvimento de projetos em diversos contextos.
-
-
 ## Introdução
 
 A Amazon Web Services (AWS) é uma das principais provedoras de serviços em nuvem, oferecendo serviços como o Amazon Elastic Compute Cloud (EC2), que permite a criação e gerenciamento de instâncias de máquinas virtuais escaláveis. Este relatório descreve o processo de criação de uma instância EC2 na AWS e o acesso a essa máquina virtual por meio do PuTTY e SSH.
@@ -123,8 +97,6 @@ Informações importantes sobre a sua máquina como a chave pública estão aqui
   <sup>Fonte: O autor (2024)</sup>
 </div>
 
-
-
 ### 2. Conectar á instância por meio do PuTTY 
 
 #### 2.1 Inserir nome de usuário e DNS IPv4 público
@@ -163,4 +135,8 @@ Informações importantes sobre a sua máquina como a chave pública estão aqui
 
 ## Resultados
 
+Após seguir o método descrito acima, foi possível criar com sucesso uma instância EC2 na AWS e acessá-la remotamente utilizando o PuTTY e SSH. A conexão foi estabelecida com êxito, permitindo a interação com a máquina virtual de forma remota.
+
 ## Conclusão
+
+A criação de uma instância EC2 na AWS e o acesso a ela por meio do PuTTY e SSH são processos fundamentais para aproveitar os benefícios da computação em nuvem de forma eficiente e segura. Essa abordagem oferece flexibilidade, escalabilidade e facilidade de gerenciamento de recursos computacionais, contribuindo para a otimização de operações e desenvolvimento de projetos em diversos contextos.
