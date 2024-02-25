@@ -14,6 +14,7 @@ Crie uma instância de máquina EC2 na AWS e acesse esta máquina com SSH (suges
 
 ## Método
 
+
 1. 
 
 <div align="center">
@@ -103,6 +104,7 @@ Crie uma instância de máquina EC2 na AWS e acesse esta máquina com SSH (suges
   <img src="./imagens/authentication.png" width="100%">
   <sup>Fonte: O autor (2024)</sup>
 </div>
+
 
 ## Resultados
 
