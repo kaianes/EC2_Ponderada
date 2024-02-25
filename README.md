@@ -119,7 +119,7 @@ Informações importantes sobre a sua máquina como a chave pública estão aqui
 
 <div align="center">
   <sub>Figura 13: "Accept"</sub>
-  <img src="./imagens/Accept.png" width="100%">
+  <img src="./imagens/accept.png" width="100%">
   <sup>Fonte: O autor (2024)</sup>
 </div>
 
